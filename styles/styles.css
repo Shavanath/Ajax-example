@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.flex {
+    display: flex;
+}
+
+.tabs {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tab {
+    padding: 20px;
+    margin: 1px;
+    width: 50%;
+    text-align: center;
+    color: #fff;
+    background: #74a3cc;
+}
+
+ul li {
+    padding: 10px;
+}
+.tab:hover {
+    cursor: pointer;
+    background: #5a81a4;
+}
+
+.users, .posts {
+    display: none;
+}
+.open {
+    display: block;
+}
